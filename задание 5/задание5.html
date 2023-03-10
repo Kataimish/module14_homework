@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="задание5.css" />
+  </head>
+  <body>
+    <header></header>
+    <form class="form">
+      <div class="inpt_block">
+        <label for="page">Введите номер страницы </label>
+        <input
+          id="page"
+          type="text"
+          placeholder="номер страницы"
+          class="inpt page"
+          required
+          autofocus
+        />
+      </div>
+      <div class="inpt_block">
+        <label for="limit">Введите лимит </label>
+        <input
+          type="text"
+          id="limit"
+          placeholder="лимит"
+          class="inpt limit"
+          required
+        />
+      </div>
+      <div class="inpt_block">
+        <input type="submit" value="запрос" class="btn" />
+      </div>
+    </form>
+
+    <div class="card">
+      <p class="result"></p>
+    </div>
+    <script src="задание5.js"></script>
+  </body>
+</html>

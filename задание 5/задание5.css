@@ -1,0 +1,51 @@
+header {
+  height: 100px;
+}
+label {
+  width: 250px;
+  display: inline-block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.inpt_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.inpt {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.btn {
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  color: rgb(158, 139, 139);
+  background-color: rgb(233, 205, 197);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.card {
+  text-align: center;
+}
+.card-image {
+  width: 200px;
+}
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.inpt_block {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
